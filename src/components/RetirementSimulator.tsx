@@ -417,17 +417,17 @@ const RetirementSimulator: React.FC = () => {
           },
         },
       },
-      title: {
-        display: true,
-        text: `Probability that you can Fund Retirement up to a Certain Age`, // Title text
-        padding: {
-          top: 20,
-          bottom: 10,
-        },
-        font: {
-          size: "18px",
-        },
-      },
+      // title: {
+      //   display: true,
+      //   text: `Probability that you can Fund Retirement up to a Certain Age`, // Title text
+      //   padding: {
+      //     top: 20,
+      //     bottom: 10,
+      //   },
+      //   font: {
+      //     size: "18px",
+      //   },
+      // },
     },
   };
 
@@ -461,17 +461,17 @@ const RetirementSimulator: React.FC = () => {
           },
         },
       },
-      title: {
-        display: true,
-        text: `Account Value Trajectory for Selected Simulation`, // Title text
-        padding: {
-          top: 20,
-          bottom: 10,
-        },
-        font: {
-          size: "18px",
-        },
-      },
+      // title: {
+      //   display: true,
+      //   text: `Account Value Trajectory for Selected Simulation`, // Title text
+      //   padding: {
+      //     top: 20,
+      //     bottom: 10,
+      //   },
+      //   font: {
+      //     size: "18px",
+      //   },
+      // },
     },
   };
 
@@ -506,17 +506,17 @@ const RetirementSimulator: React.FC = () => {
           },
         },
       },
-      title: {
-        display: true,
-        text: `Annual Impact of Savings, Withdrawals and Investment Returns`, // Title text
-        padding: {
-          top: 20,
-          bottom: 10,
-        },
-        font: {
-          size: "18px",
-        },
-      },
+      // title: {
+      //   display: true,
+      //   text: `Annual Impact of Savings, Withdrawals and Investment Returns`, // Title text
+      //   padding: {
+      //     top: 20,
+      //     bottom: 10,
+      //   },
+      //   font: {
+      //     size: "18px",
+      //   },
+      // },
     },
   };
 
@@ -537,11 +537,11 @@ const RetirementSimulator: React.FC = () => {
         },
         beginAtZero: true,
         max: calculatePercentile(accountValuesAtRetirement, 95),
-        position: "right",
-        ticks: {
-          // Optional: Customize y-axis ticks if needed
-          callback: (value: number) => formatCurrency(value), // Example of formatting
-        },
+        // position: "right",
+        // ticks: {
+        //   // Optional: Customize y-axis ticks if needed
+        //   callback: (value: number) => formatCurrency(value), // Example of formatting
+        // },
       },
     },
     elements: {
@@ -562,17 +562,17 @@ const RetirementSimulator: React.FC = () => {
           },
         },
       },
-      title: {
-        display: true,
-        text: `Simulation of ${NUMBER_SIMULATIONS} Account Trajectories from Age ${currentAge} to ${retirementAge}`, // Title text
-        padding: {
-          top: 20,
-          bottom: 10,
-        },
-        font: {
-          size: 18,
-        },
-      },
+      // title: {
+      //   display: true,
+      //   text: `Simulation of ${NUMBER_SIMULATIONS} Account Trajectories from Age ${currentAge} to ${retirementAge}`, // Title text
+      //   padding: {
+      //     top: 20,
+      //     bottom: 10,
+      //   },
+      //   font: {
+      //     size: 18,
+      //   },
+      // },
       // subtitle: {
       //   display: true,
       //   text: "Subtitle of the Chart", // Subtitle text
@@ -667,17 +667,17 @@ const RetirementSimulator: React.FC = () => {
           },
         },
       },
-      title: {
-        display: true,
-        text: "Histogram of Possible Account Values by Retirement", // Title text
-        padding: {
-          top: 20,
-          bottom: 10,
-        },
-        font: {
-          size: "18px",
-        },
-      },
+      // title: {
+      //   display: true,
+      //   text: "Histogram of Possible Account Values by Retirement", // Title text
+      //   padding: {
+      //     top: 20,
+      //     bottom: 10,
+      //   },
+      //   font: {
+      //     size: "18px",
+      //   },
+      // },
       // subtitle: {
       //   display: true,
       //   text: "Subtitle of the Chart", // Subtitle text
