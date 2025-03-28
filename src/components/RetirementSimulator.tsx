@@ -494,18 +494,18 @@ const RetirementSimulator: React.FC = () => {
       },
     },
     plugins: {
-      legend: {
-        position: "bottom",
-      },
-      tooltip: {
-        callbacks: {
-          label: function (tooltipItem: any) {
-            // Format the value with a dollar sign and commas
-            const value = tooltipItem.raw;
-            return `${tooltipItem.dataset.label}: ${formatCurrency(value)}`;
-          },
-        },
-      },
+      // legend: {
+      //   position: "bottom",
+      // },
+      // tooltip: {
+      //   callbacks: {
+      //     label: function (tooltipItem: any) {
+      //       // Format the value with a dollar sign and commas
+      //       const value = tooltipItem.raw;
+      //       return `${tooltipItem.dataset.label}: ${formatCurrency(value)}`;
+      //     },
+      //   },
+      // },
       // title: {
       //   display: true,
       //   text: `Annual Impact of Savings, Withdrawals and Investment Returns`, // Title text
@@ -619,17 +619,17 @@ const RetirementSimulator: React.FC = () => {
           },
         },
       },
-      title: {
-        display: true,
-        text: `Investment Returns over the Life of Your Account`, // Title text
-        padding: {
-          top: 20,
-          bottom: 10,
-        },
-        font: {
-          size: "18px",
-        },
-      },
+      // title: {
+      //   display: true,
+      //   text: `Investment Returns over the Life of Your Account`, // Title text
+      //   padding: {
+      //     top: 20,
+      //     bottom: 10,
+      //   },
+      //   font: {
+      //     size: "18px",
+      //   },
+      // },
     },
   };
 
